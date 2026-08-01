@@ -1,0 +1,13 @@
+info:
+  name: Logout
+  type: grpc
+  seq: 2
+
+grpc:
+  url: https://{{url}}/
+  method: /grpc.authentication.v1.AuthenticationService/Logout
+  methodType: unary
+  message:
+    - title: message 1
+      message: "{}"
+  auth: inherit
