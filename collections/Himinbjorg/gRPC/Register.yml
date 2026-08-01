@@ -1,0 +1,17 @@
+info:
+  name: Register
+  type: grpc
+  seq: 3
+
+grpc:
+  url: https://{{url}}/
+  method: /grpc.authentication.v1.AuthenticationService/Register
+  methodType: unary
+  message:
+    - title: message 1
+      message: |-
+        {
+          "Email": "user@norse.org",
+          "Password": "Ragnarök28"
+        }
+  auth: inherit

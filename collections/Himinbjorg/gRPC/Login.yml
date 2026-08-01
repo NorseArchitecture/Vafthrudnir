@@ -1,0 +1,18 @@
+info:
+  name: Login
+  type: grpc
+  seq: 1
+
+grpc:
+  url: https://{{url}}/
+  method: /grpc.authentication.v1.AuthenticationService/Login
+  methodType: unary
+  message:
+    - title: message 1
+      message: |-
+        {
+          "Email": "user@norse.org",
+          "Password": "Ragnarök28",
+          "RememberMe": true
+        }
+  auth: inherit

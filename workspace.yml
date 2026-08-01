@@ -1,0 +1,12 @@
+opencollection: 1.0.0
+info:
+  name: "Norse Architecture"
+  type: workspace
+
+collections:
+  - name: "Himinbjörg (Authentication)"
+    path: "collections/Himinbjorg"
+
+specs:
+
+docs: ''
