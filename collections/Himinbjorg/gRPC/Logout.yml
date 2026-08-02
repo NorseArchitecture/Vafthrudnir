@@ -4,7 +4,7 @@ info:
   seq: 2
 
 grpc:
-  url: https://{{url}}/
+  url: https://{{host}}/
   method: /grpc.authentication.v1.AuthenticationService/Logout
   methodType: unary
   message:

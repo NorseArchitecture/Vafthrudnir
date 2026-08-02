@@ -1,5 +1,5 @@
 name: Local
 variables:
-  - name: url
+  - name: host
     value: localhost:5001
     description: Yggdrasil's Hosting.Web.Server
