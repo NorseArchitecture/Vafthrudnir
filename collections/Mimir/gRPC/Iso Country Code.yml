@@ -5,8 +5,12 @@ info:
 
 grpc:
   url: https://{{url}}/
-  method: ""
+  method: /grpc.reference.v1.ReferenceService/GetCountry
+  methodType: unary
   message:
     - title: message 1
-      message: "{}"
+      message: |-
+        {
+          "Code": "US"
+        }
   auth: inherit
