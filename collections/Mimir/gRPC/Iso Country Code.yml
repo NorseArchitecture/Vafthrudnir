@@ -1,0 +1,12 @@
+info:
+  name: Iso Country Code
+  type: grpc
+  seq: 1
+
+grpc:
+  url: https://{{url}}/
+  method: ""
+  message:
+    - title: message 1
+      message: "{}"
+  auth: inherit

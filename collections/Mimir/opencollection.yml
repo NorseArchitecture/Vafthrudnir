@@ -1,11 +1,11 @@
 opencollection: 1.0.0
 
 info:
-  name: Himinbjörg (Authentication)
-  version: v0.0.13
+  name: Mímir (Reference Data)
+  version: v0.0.2
 config:
   proxy:
-    inherit: false
+    inherit: true
     config:
       protocol: http
       hostname: ""
@@ -14,7 +14,6 @@ config:
         username: ""
         password: ""
       bypassProxy: ""
-    disabled: true
 bundled: false
 extensions:
   bruno:

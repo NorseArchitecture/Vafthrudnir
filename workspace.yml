@@ -6,6 +6,8 @@ info:
 collections:
   - name: "Himinbjörg (Authentication)"
     path: "collections/Himinbjorg"
+  - name: "Mímir (Reference Data)"
+    path: "collections/Mimir"
 
 specs:
 
