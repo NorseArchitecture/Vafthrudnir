@@ -1,0 +1,16 @@
+info:
+  name: EmailExists
+  type: grpc
+  seq: 1
+
+grpc:
+  url: https://{{host}}/
+  method: /grpc.authentication.v1.AuthenticationService/EmailExists
+  methodType: unary
+  message:
+    - title: message 1
+      message: |-
+        {
+          "Email": "quidem"
+        }
+  auth: inherit
