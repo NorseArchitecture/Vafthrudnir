@@ -1,0 +1,19 @@
+info:
+  name: ISO Country (JSON)
+  type: http
+  seq: 1
+
+http:
+  method: GET
+  url: https://{{host}}/api/reference/countries/:code
+  params:
+    - name: code
+      value: US
+      type: path
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

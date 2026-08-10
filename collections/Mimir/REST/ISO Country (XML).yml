@@ -1,0 +1,23 @@
+info:
+  name: ISO Country (XML)
+  type: http
+  seq: 2
+
+http:
+  method: GET
+  url: https://{{host}}/api/reference/countries/:code
+  headers:
+    - name: Accept
+      value: application/xml
+      description: Content negotiation
+  params:
+    - name: code
+      value: USA
+      type: path
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

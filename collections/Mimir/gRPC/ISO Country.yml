@@ -1,5 +1,5 @@
 info:
-  name: Iso Country Code
+  name: ISO Country
   type: grpc
   seq: 1
 
